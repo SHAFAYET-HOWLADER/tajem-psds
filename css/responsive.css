@@ -1,0 +1,1255 @@
+
+/*============applying start media queries================*/
+/*-----extra large device start-----*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/*----extra large  device end-----*/
+
+
+
+/*------large device start-----*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+/* banner part start */
+body{
+	overflow-x: hidden;
+}
+ .banner-overlay {
+   padding-top: 100px;
+   padding-bottom: 10px;
+ }
+ .banner-content p {
+   font-size: 14px;
+   color: #fff;
+   width: 683px;
+   margin-left: 150px;
+   text-align: center;
+   padding-top: 15px;
+  } 
+  .banner-content h3::after {
+	left: 44%;
+   }
+   .banner-btn {
+	margin-right: 245px;
+  }
+  .banner .slick-dots {
+	left: 40%;
+	bottom: 15px;
+ }
+ .banner-content h3 {
+   font-size: 18px; 
+   padding-bottom: 15px;
+   padding-right: 40px;
+   width: 353px;
+   margin-left: 300px;
+ }
+
+/* story part start */
+.story-padding {
+	padding-left: 0px; 
+	padding-right: 95px;
+}
+/* story part end */
+
+/* vedio part start */
+.vedio-overlay {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.vedio-part i {
+	margin-right: 200px;
+}
+.vedio-part p {
+	margin-right: 187px;
+}
+
+/* vedio part end */
+/* service part start */
+.service-items {
+	margin-right: 200px;
+}
+/* service part end */
+/* team part start */
+.team-items {
+	width: 85%;
+}
+.team-title h3 {
+	margin-right: 180px;
+}
+.team-title h5 {
+	margin-right: 150px;
+}
+.team-title h5::after {
+	left: 49%;
+}
+.team-btn {
+	text-align: center;
+	margin-right: 170px;
+}
+.works-title h3 {
+	margin-left: 150px;
+}
+.works-title h5 {
+	margin-left: 150px;
+}
+/* team part end */
+/* works part start */
+.work {
+padding-top: 10px;
+padding-bottom: 50px;
+}
+.works-title h3 {
+	font-size: 18px;
+	margin-right: 390px;
+	margin-bottom: 15px;
+}
+.works-title h5 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 390px;
+	margin-bottom: 25px;
+}
+
+.works-title h5::after {
+	bottom: -11px;
+}
+
+.works-menu {
+padding-top: 0; 
+padding-bottom: 25px;
+}
+.works-btn {
+padding-top: 25px;
+}
+.works-btn a {
+font-size: 12px;
+padding: 10px;
+}
+.works-title h5 {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+/* works part end */
+/* people part start */
+.people-items {
+text-align: start;
+}
+.people-items img {
+	margin: 0 480px;
+	padding-bottom: 10px;
+}
+.people-text p {
+font-size: 14px;
+width: 104%;
+padding-top: 0;
+padding-bottom: 0;
+text-align: center;
+margin-right: -160px;
+padding-right: 488px;;
+/* text-align: justify; */
+}
+
+.people-text h4 {
+	margin: 0px 431px;
+	padding-top: 15px;
+}
+.people-text h5 {
+margin: 0px 435px;
+}
+.people-overlay {
+padding-top: 50px;
+padding-bottom: 75px;
+}
+.people .slick-dots {
+	left: 42%;
+}
+/* people part end */
+
+/* client part start */
+.client {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.client-flex {
+display: block;
+}
+.client-left h3 {
+font-size: 18px;
+padding-bottom: 20px;
+margin: 0 55px;
+}
+.c-one {
+	margin-bottom: 30px;
+	margin-left: 55px;
+}
+.client-left input {
+display: block;
+width: 500px;
+border: 1px solid #e5e5e5;
+}
+.client-left .input {
+margin: 0 55px;
+margin-bottom: 20px;
+}
+.add {
+width: 500px;
+}
+.client-btn {
+margin: 0 55px;
+padding-bottom: 60px
+
+}
+.client-right h3 {
+font-size: 18px;
+padding-bottom: 20px;
+margin: 0 55px;
+}
+
+/* client part end */
+
+/* footer part start */
+.footer-flex {
+	margin-right: 176px;
+}
+
+.back-to-top i {
+bottom: 17px;
+right: 30px;
+
+}
+/* footer part end */
+}
+/*-----large device end--------*/
+
+
+/*------medium device start------*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* navbar part start*/
+	body{
+		overflow-x: hidden;
+	}
+	.sticky {
+		display: none;
+		width: 100%;
+   }
+ .mean-container .mean-bar {
+  background: transparent;
+ }
+
+ .navbar .logo img{
+	margin-left: 40px;
+ }
+/* navbar part end*/
+
+/* banner part start */
+ .banner-overlay {
+   padding-top: 100px;
+   padding-bottom: 10px;
+ }
+ .banner-content p {
+   font-size: 14px;
+   color: #fff;
+   width: 600px;
+   margin-left: 88px;
+   text-align: center;
+   padding-top: 15px;
+  } 
+
+ .banner-content h3 {
+   font-size: 18px; 
+   padding-bottom: 15px;
+   padding-right: 40px;
+   width: 353px;
+   margin-left: 226px;
+ }
+  .banner-btn {
+	text-align: start;
+	padding-bottom: 50px;
+	margin-left: 307px;
+  }
+ .banner-btn a {
+   padding: 12px;
+ }
+  .banner-content h3::after {
+   left: 41%;
+   bottom: 0px;
+   transform: translateX(-50%);
+  }
+ .banner .slick-dots {
+	left: 32%;
+	transform: translatex(-50%);
+	bottom: 10px;
+  }
+/* banner part start */
+
+/* story part start */
+.story {
+padding-top: 35px;
+padding-bottom: 35px;
+}
+.story-items {
+display: block;
+}
+.story-padding {
+padding-left: 0px; 
+padding-right: 877px;
+}
+.story .story-text h3 {
+	font-size: 18px;
+	padding-bottom: 10px;
+	margin-left: 233px;
+	width: 100%;
+}
+.story .story-items .story-text p {
+font-size: 14px;
+margin: 0px 141px;
+width: 158%;
+text-align: center;
+}
+.story-logo img {
+	margin: 0 260px;
+	margin-bottom: 30px;
+}
+.story-btn {
+	margin-left: 230px;
+	width: 100%;
+}
+/* story part end */
+
+/* vedio part start */
+.vedio-overlay {
+padding-top: 50px;
+padding-bottom: 5px;
+}
+.vedio-part {
+text-align: start; 
+margin: 0 355px;
+}
+.vedio-part i {
+text-align: center;
+}
+.vedio-part p {
+	text-align: start;
+	margin-left: -42px;
+	margin-bottom: 15px;
+}
+/* vedio part end */
+/* service part start */
+.service {
+padding-top: 9px;
+padding-bottom: 50px;
+}
+.service-title h3 {
+	text-align: start;
+	margin-left: 325px;
+}
+.service-title p {
+	text-align: start; 
+	margin-left: 213px;
+}
+.service-content {
+display: block;
+text-align: center;
+}
+.service-para {
+text-align: start;
+padding-bottom: 20px;
+}
+.service-para p {
+font-size: 14px;
+width: 352px;
+margin-left: 160px; 
+text-align: center;
+}
+.service-title p::after {
+	left: 18%;
+}
+.service-para i {
+font-size: 40px;
+margin: 0 313px;
+padding-top: 0;
+}
+.service-para h4 {
+margin-left: 238px;
+padding: 5px 0px;
+}
+/* service part end */
+
+/* team part start */
+.team-overlay {
+padding-top: 50pxpx;
+padding-bottom: 50xpx;
+}
+.team-title h3 {
+	margin-right: 408px;
+	font-size: 18px;
+}
+.team-one {
+margin-bottom: 20px;
+}
+.team-items {
+	/* display: block; */
+	width: 61.5%;
+	margin: 0 25px;
+}
+.team-title h5 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-right: 399px;
+}
+.team-title h5::after {
+	bottom: -18px;
+}
+.team-btn {
+	text-align: center;
+	margin-right: 389px;
+}
+/* team part end */
+/* works part start */
+.work {
+padding-top: 10px;
+padding-bottom: 50px;
+}
+.works-title h3 {
+	font-size: 18px;
+	margin-right: 390px;
+	margin-bottom: 15px;
+}
+.works-title h5 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 390px;
+	margin-bottom: 25px;
+}
+
+.works-title h5::after {
+	bottom: -11px;
+}
+
+.works-menu {
+padding-top: 0; 
+padding-bottom: 25px;
+}
+.works-btn {
+padding-top: 25px;
+}
+.works-btn a {
+font-size: 12px;
+padding: 10px;
+}
+.works-title h5 {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+/* works part end */
+/* people part start */
+.people-items {
+text-align: start;
+}
+.people-items img {
+	margin: 0 368px;
+	padding-bottom: 10px;
+}
+.people-text p {
+font-size: 14px;
+width: 94%;
+padding-top: 0;
+padding-bottom: 0;
+text-align: center;
+margin-right: 0;
+padding-right: 488px;;
+/* text-align: justify; */
+}
+.people-text h4 {
+	margin: 0px 321px;
+	padding-top: 15px;
+}
+.people-text h5 {
+margin: 0px 326px;
+}
+.people-overlay {
+padding-top: 50px;
+padding-bottom: 75px;
+}
+.people .slick-dots {
+	left: 32.5%;
+}
+/* people part end */
+
+/* client part start */
+.client {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.client-flex {
+display: block;
+}
+.client-left h3 {
+font-size: 18px;
+padding-bottom: 20px;
+margin: 0 55px;
+}
+.c-one {
+	margin-bottom: 30px;
+	margin-left: 55px;
+}
+.client-left input {
+display: block;
+width: 500px;
+border: 1px solid #e5e5e5;
+}
+.client-left .input {
+margin: 0 55px;
+margin-bottom: 20px;
+}
+.add {
+width: 500px;
+}
+.client-btn {
+margin: 0 55px;
+padding-bottom: 60px
+
+}
+.client-right h3 {
+font-size: 18px;
+padding-bottom: 20px;
+margin: 0 55px;
+}
+
+/* client part end */
+
+/* footer part start */
+.footer-overlay {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer-flex {
+	display: flex;
+	justify-content: center;
+	margin-right: 400px;
+}
+.footer-part-one p {
+padding-top: 20px;
+padding-bottom: 25px;
+font-size: 12px;
+width: 216px;
+}
+.footer-part-two.f-gap {
+	margin-right: 30px;
+}
+.footer-part-one ul li {
+font-size: 12px;
+margin-right: 10px;
+}
+.footer-part-two h3 {
+padding-top: 45px;
+}
+.footer-part-two p {
+font-size: 12px;
+padding: 10px 0px;
+width: 170px;
+}
+.footer-part-three h3 {
+padding-top: 50px;
+}
+.footer-part-three input {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.back-to-top i {
+bottom: 17px;
+right: 30px;
+
+}
+/* footer part end */
+}
+/*-----medium device end----------*/
+    
+
+/*------ small device start---------*/
+@media (max-width: 575.98px){
+   /* navbar part start*/
+   body{
+	overflow-x: hidden;
+}
+.sticky {
+	display: none;
+	width: 100%;
+}
+.mean-container .mean-bar {
+  background: transparent;
+}
+
+.navbar .logo img{
+	margin-left: 40px;
+}
+/* navbar part end*/
+
+/* banner part start */
+.banner-overlay {
+   padding-top: 100px;
+   padding-bottom: 10px;
+}
+.banner-content p {
+   font-size: 14px;
+   color: #fff;
+   width: 450px;
+   margin-left: 60px;
+   text-align: center;
+   padding-top: 15px;
+}
+.banner-content h3 {
+   font-size: 18px; 
+   padding-bottom: 15px;
+   padding-right: 40px;
+   width: 353px;
+   margin-left: 125px;
+}
+.banner-btn {
+   text-align: start; 
+   padding-bottom: 50px;
+   margin-left: 210px;
+}
+.banner-btn a {
+   padding: 12px;
+}
+.banner-content h3::after {
+   left: 41%;
+   bottom: 0px;
+   transform: translateX(-50%);
+}
+.banner .slick-dots {
+	left: 13%;
+	bottom: 10px;
+}
+/* banner part start */
+
+/* story part start */
+
+.story {
+padding-top: 35px;
+padding-bottom: 35px;
+}
+.story-items {
+display: block;
+}
+.story-padding {
+padding-left: 0px; 
+padding-right: 877px;
+}
+.story .story-text h3 {
+	font-size: 18px;
+	padding-bottom: 10px;
+	margin-left: 122px;
+	width: 100%;
+}
+.story .story-items .story-text p {
+font-size: 14px;
+margin: 0px 100px;
+width: 121%;
+text-align: center;
+}
+.story-logo img {
+	margin: 0 147px;
+	margin-bottom: 30px;
+}
+.story-btn {
+	margin-left: 133px;
+	width: 100%;
+}
+.banner .slick-dots{
+    position: absolute;
+    left: 23.5%;
+    transform: translatex(-50%);
+    bottom: 0px;
+}
+/* story part end */
+
+/* vedio part start */
+.vedio-overlay {
+padding-top: 50px;
+padding-bottom: 5px;
+}
+.vedio-part {
+text-align: start; 
+margin: 0 256px;
+}
+.vedio-part i {
+text-align: center;
+}
+.vedio-part p {
+	text-align: start;
+	margin-left: -42px;
+	margin-bottom: 15px;
+}
+/* vedio part end */
+/* service part start */
+.service {
+padding-top: 9px;
+padding-bottom: 50px;
+}
+.service-title h3 {
+	text-align: start;
+	margin-left: 230px;
+}
+.service-title p {
+	text-align: start; 
+	margin-left: 123px;
+}
+.service-content {
+display: block;
+text-align: center;
+}
+.service-para {
+text-align: start;
+padding-bottom: 20px;
+}
+.service-para p {
+font-size: 14px;
+width: 284px;
+margin-left: 104px; 
+text-align: center;
+}
+.service-para i {
+font-size: 40px;
+margin: 0 233px;
+padding-top: 0;
+}
+.service-para h4 {
+margin-left: 166px;
+padding: 5px 0px;
+}
+/* service part end */
+
+/* team part start */
+.team-overlay {
+padding-top: 50pxpx;
+padding-bottom: 50xpx;
+}
+.team-title h3 {
+	margin-right: 597px;
+	font-size: 18px;
+}
+.team-one {
+margin-bottom: 20px;
+}
+.team-items {
+	display: block;
+	width: 30.5%;
+	margin: 0 105px;
+}
+.team-title h5 {
+padding-top: 0px;
+padding-bottom: 0px;
+margin-right: 578px;
+}
+.team-title h5::after {
+	bottom: -18px;
+}
+.team-btn {
+	text-align: center;
+	margin-right: 595px;
+}
+/* team part end */
+/* works part start */
+.work {
+padding-top: 10px;
+padding-bottom: 50px;
+}
+.works-title h3 {
+	font-size: 18px;
+	margin-right: 587px;
+	margin-bottom: 15px;
+}
+.works-title h5 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 587px;
+	margin-bottom: 25px;
+}
+.works-menu ul {
+display: block;
+}
+.works-title h5::after {
+	bottom: -11px;
+}
+.works-menu ul li button {
+	width: 100%;
+	padding: 10px;
+	font-size: 12px;
+}
+.works-menu {
+padding-top: 0; 
+padding-bottom: 25px;
+}
+.works-btn {
+padding-top: 25px;
+}
+.works-btn a {
+font-size: 12px;
+padding: 10px;
+}
+.works-title h5 {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+/* works part end */
+/* people part start */
+.people-items {
+text-align: start;
+}
+.people-items img {
+	margin: 0 272px;
+	padding-bottom: 10px;
+}
+.people-text p {
+font-size: 14px;
+width: 108%;
+padding-top: 0;
+padding-bottom: 0;
+text-align: center;
+margin-right: 0;
+padding-right: 690px;;
+/* text-align: justify; */
+}
+.people-text h4 {
+	margin: 0px 235px;
+	padding-top: 15px;
+}
+.people-text h5 {
+margin: 0px 235px;
+}
+.people-overlay {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.people .slick-dots {
+	left: 25%;
+	
+}
+/* people part end */
+
+/* client part start */
+.client {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.client-flex {
+display: block;
+}
+.client-left h3 {
+font-size: 18px;
+padding-bottom: 20px;
+margin: 0 55px;
+
+}
+.client-left input {
+display: block;
+width: 400px;
+border: 1px solid #e5e5e5;
+}
+.client-left .input {
+margin: 0 55px;
+margin-bottom: 20px;
+}
+.add {
+width: 400px;
+}
+.client-btn {
+margin: 0 55px;
+padding-bottom: 60px
+
+}
+.client-right h3 {
+font-size: 18px;
+padding-bottom: 20px;
+margin: 0 55px;
+}
+.c-one img{
+display: block;
+margin: 15px 60px;
+}
+/* client part end */
+
+/* footer part start */
+.footer-flex {
+display: block;
+}
+.footer-part-one p {
+padding-top: 20px;
+padding-bottom: 25px;
+font-size: 12px;
+}
+.footer-flex {
+	margin-left: 80px;
+}
+.footer-part-one ul li {
+font-size: 12px;
+}
+.footer-part-two h3 {
+padding-top: 45px;
+}
+.footer-part-two p {
+font-size: 12px;
+padding: 10px 0px;
+}
+.footer-part-three h3 {
+padding-top: 50px;
+}
+.footer-part-three input {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.back-to-top i {
+bottom: 17px;
+right: 30px;
+
+}
+/* footer part end */
+}
+/*------small device end------------*/
+
+
+
+
+/*------extra small device start------*/
+@media (max-width: 320px){
+     /* navbar part start*/
+	 body{
+		 overflow-x: hidden;
+	 }
+     .sticky {
+          display: none;
+		  width: 100%;
+     }
+     .mean-container .mean-bar {
+	    background: transparent;
+     }
+     .mean-container .mean-nav {
+	    margin-top: 70px;
+     }
+     .navbar .logo img{
+          margin-left: 15px;
+     }
+/* navbar part end*/
+
+/* banner part start */
+.banner-overlay {
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.banner-content p {
+	font-size: 12px;
+	color: #fff;
+	width: 308px;
+	margin: 0; 
+	text-align: center;
+     padding-top: 15px;
+}
+.banner-content h3 {
+	padding-right: 40px;
+	width: 353px;
+	margin-left: 0px; 
+}
+.banner-btn {
+	text-align: start; 
+	padding-bottom: 50px;
+	margin-left: 84px;
+}
+.banner-btn a {
+	padding: 12px;
+}
+.banner-content h3::after {
+	left: 41%;
+	bottom: 0px;
+	transform: translateX(-50%);
+}
+.banner .slick-dots {
+	left: 13%;
+	bottom: 10px;
+}
+/* banner part start */
+
+/* story part start */
+.story {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.story-items {
+	display: block;
+}
+.story-padding {
+	padding-left: 0px; 
+	padding-right: 877px;
+}
+.story .story-text h3 {
+	margin-left: 0px; 
+}
+.story .story-items .story-text p {
+	font-size: 12px;
+	margin: 0px 12px;
+	width: 100%;
+	text-align: center;
+}
+.story-btn {
+margin-left: 0px;
+
+}
+/* story part end */
+
+/* vedio part start */
+.vedio-overlay {
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+.vedio-part {
+	text-align: start; 
+	margin: 0 130px;
+}
+.vedio-part i {
+	text-align: center;
+}
+/* vedio part end */
+/* service part start */
+.service {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.service-content {
+	display: block;
+     text-align: center;
+}
+.service-title h3 {
+	text-align: start;
+	margin-left: 110px;
+	font-size: 18px;
+}
+.service-title p {
+	margin-left: 70px;
+	width: 200px;
+}
+.service-title p::after {
+	left: 43%;
+	bottom: 8px;
+}
+.team-title h3 {
+	margin-right: 856px;
+	font-size: 18px;
+}
+.service-para {
+	text-align: start;
+     padding-bottom: 20px;
+}
+.service-para p {
+	font-size: 14px;
+	width: 224px;
+	margin: 0; 
+	text-align: center;
+}
+.service-para i {
+	font-size: 40px;
+	margin: 0 83px;
+     padding-top: 0;
+}
+.service-para h4 {
+	margin-left: 15px;
+     padding: 5px 0px;
+}
+/* service part end */
+
+/* team part start */
+.team-overlay {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.story-logo img {
+	vertical-align: middle;
+	margin: 0 40px;
+	margin-bottom: 30px;
+}
+.team-one {
+	margin-right: 33px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.team-items {
+	display: block;
+	width: 28.5%;
+	margin-left: 0px;
+}
+.team-title h5 {
+	/* padding-top: 0px;
+    padding-bottom: 0px; */
+	margin-right: 612px;
+	width: 304px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.team-title h5::after {
+	bottom: -15px;
+}
+.team-btn p {
+	padding-top: 12px; 
+	 padding-bottom: 30px; 
+}
+.team-btn {
+	text-align: center;
+	margin-right: 848px;
+}
+/* team part end */
+/* works part start */
+.work {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.works-menu ul {
+	display: block;
+	/* justify-content: center; */
+}
+.works-menu ul li button {
+	width: 100%;
+     padding: 5px;
+	font-size: 12px;
+}
+.works-menu {
+	padding-top: 0; 
+	padding-bottom: 25px;
+}
+.works-btn {
+	padding-top: 25px;
+}
+.works-btn a {
+	font-size: 12px;
+	padding: 10px;
+}
+.works-title h3 {
+	margin-right: 845px;
+}
+.works-title h5 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 860px;
+	margin-bottom: 25px;
+}
+/* works part end */
+/* people part start */
+.people-items {
+	text-align: start;
+}
+.people .slick-dots {
+	left: 14%;
+}
+.people-items img{
+	margin: 0 135px;
+	padding-bottom: 10px;
+}
+.people-text p {
+	font-size: 14px;
+	width: 97%;
+	margin: 0 auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	margin-right: 0;
+	padding-right: 879px;;
+	/* text-align: justify; */
+}
+.people-text h4 {
+	margin: 0px 104px;
+	padding-top: 15px;
+}
+.people-text h5 {
+	margin: 0px 104px;
+}
+.people-overlay {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.people .slick-dots {
+	left: 14%;
+}
+/* people part end */
+
+/* client part start */
+.client {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.client-flex {
+	display: block;
+}
+.client-left h3 {
+	font-size: 18px;
+	padding-bottom: 20px;
+	margin: 0 55px;
+
+}
+.client-left input {
+	display: block;
+	width: 200px;
+	border: 1px solid #e5e5e5;
+}
+.client-left .input {
+	margin: 0 55px;
+	margin-bottom: 20px;
+}
+.add {
+	width: 200px;
+}
+.client-btn {
+	margin: 0 55px;
+	padding-bottom: 30px
+
+}
+.client-right h3 {
+	font-size: 18px;
+	padding-bottom: 20px;
+	margin: 0 55px;
+}
+.c-one img{
+	display: block;
+	margin: 15px 60px;
+}
+/* client part end */
+
+/* footer part start */
+.footer-flex {
+	display: block;
+}
+.footer-flex {
+	margin-left: 30px;
+}
+.footer-part-one p {
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+.footer-part-one ul li {
+	font-size: 12px;
+}
+.footer-part-two h3 {
+	padding-top: 45px;
+}
+.footer-part-two p {
+	font-size: 12px;
+	padding: 10px 0px;
+}
+.footer-part-three h3 {
+	padding-top: 50px;
+}
+.footer-part-three input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.back-to-top i {
+	bottom: 17px;
+	right: 30px;
+
+}
+/* footer part end */
+
+
+}
+/*-------extra small device end--------*/
+/*============applying end media queries================*/
